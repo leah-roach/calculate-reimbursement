@@ -8,6 +8,9 @@ const lowCostRateTravelDay = 45;
 const highCostRateFullDay = 85;
 const highCostRateTravelDay = 55;
 
+const newTestVarioable = 20;
+console.log("newTestVariable: ", newTestVarioable);
+
 // Function used to read the data from the csv input files
 const dataSetFromCSV = async (filePath) => {
     console.log(`READING DATA FROM CSV ${filePath}`);
